@@ -7,10 +7,28 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Кнопка" HorizontalAlignment="Left" Height="58" Margin="95,178,0,0" VerticalAlignment="Top" Width="173" Click="Button_Click"/>
-        <Button Content="открыть" HorizontalAlignment="Left" Height="58" Margin="351,178,0,0" VerticalAlignment="Top" Width="139" Click="Button_Click_1"/>
+        <ComboBox Margin="180,146,407,149">
+            <ComboBoxItem Selected="ComboBoxItem_Selected1">
+                <StackPanel>
+                    <TextBlock FontStyle="Oblique">Hello word</TextBlock>
+                    <TextBlock>Hello 2</TextBlock>
+                </StackPanel>
+                
+            </ComboBoxItem>
+            <ComboBoxItem Selected="ComboBoxItem_Selected">
+                <StackPanel>
+                    <TextBlock>hi ithub</TextBlock>
+                    <TextBlock>vasa pypkin</TextBlock>
+                </StackPanel>
+            </ComboBoxItem>
+           
+        </ComboBox>
+        <Button Content="Кнопка" HorizontalAlignment="Left" Height="58" Margin="43,47,0,0" VerticalAlignment="Top" Width="173" Click="Button_Click"/>
+        <Button Content="открыть" HorizontalAlignment="Left" Height="58" Margin="258,47,0,0" VerticalAlignment="Top" Width="139" Click="Button_Click_1"/>
         <Image  Name ="DisplayImage" HorizontalAlignment="Left" Height="137" Margin="532,111,0,0" VerticalAlignment="Top" Width="159"/>
-        <Button Content="изображение" HorizontalAlignment="Left" Height="46" Margin="43,315,0,0" VerticalAlignment="Top" Width="104" Click="Button_Click_2"/>
+        <Button Content="изображение" HorizontalAlignment="Left" Height="46" Margin="43,126,0,0" VerticalAlignment="Top" Width="104" Click="Button_Click_2"/>
+        <Image Name="ing1" HorizontalAlignment="Left" Height="59" Margin="599,47,0,0" VerticalAlignment="Top" Width="105"/>
+        <Image Name="img2" HorizontalAlignment="Left" Height="68" Margin="506,180,0,0" VerticalAlignment="Top" Width="146"/>
 
     </Grid>
 </Window>

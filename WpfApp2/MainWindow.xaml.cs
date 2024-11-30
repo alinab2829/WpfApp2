@@ -50,5 +50,15 @@ namespace WpfApp2
             window.Show();
             this.Close();
         }
+
+        private void ComboBoxItem_Selected(object sender, RoutedEventArgs e)
+        { img2.Source = new BitmapImage(new Uri(@"\\sysprofiles.adm.vvsu.ru\STUDENTRPROFILES$\alinaboltaeva\Desktop\img.png"));
+            MessageBox.Show("12dsad");
+        }
+        private void ComboBoxItem_Selected1(object sender, RoutedEventArgs e)
+        {
+            img2.Source = new BitmapImage(new Uri(@"\\sysprofiles.adm.vvsu.ru\STUDENTRPROFILES$\alinaboltaeva\Desktop\img1.png"));
+            MessageBox.Show("12ds123ad");
+        }
     }
 }
